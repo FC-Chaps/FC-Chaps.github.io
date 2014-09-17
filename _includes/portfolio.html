@@ -1,1 +1,16 @@
-Will
+<div id="portfolio">
+
+	<h1 id="main-head">Portfolio</h1>
+
+	{% for post in site.posts %}
+
+	<div id="{{post.number}}">
+		<img class="proj-img" src="{{post.image}}" />
+		<h2 class="project-title">{{post.title}}</h2>
+		<p class="project-description">{{post.description}}</p>
+	</div>
+
+
+	{% endfor %}
+
+</div>
