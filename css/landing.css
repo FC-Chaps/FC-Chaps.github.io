@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/* NAVIGATION BAR AND STYLES */
+	#nav, #nav * {
+		padding: 0;
+		margin: 0;
+	}
+		#nav {
+			display: table;
+			position: fixed;
+			top: 0;
+			z-index: 999;
+
+			width: 40%;
+			padding-left: 50%;
+			padding-right: 10%;
+			padding-top: 0.5%;
+			padding-bottom: 0.5%;
+
+			background-color: black;
+			color: white;
+			list-style: none;
+			text-align: center;
+			
+		}
+			li {
+				display: table-cell;
+				font-weight: 100
+			}
+				/* unvisited link */
+				li > a:link {
+				    color: #FFF;
+				}
+
+				/* visited link */
+				li > a:visited {
+				    color: #FFF;
+				}
+
+				/* mouse over link */
+				li > a:hover {
+				    color: #cc365c;
+				    text-decoration: none;
+				}
+
+				/* selected link */
+				li > a:active {
+				    color: #cc365c;
+				}
+
+#landing-page  {
+	width: 100%;
+	overflow: hidden;
+	background-image: url(http://i.imgur.com/ZBE1vfJ.jpg);
+	height: 100vh;
+	background-size: 100%;
+}
+	#landing-page h1, #landing-page h3{
+		/* color: #65a5ff; */
+		color: #fff;
+	}
+		#landing-page h1 {
+			font-weight: 100;
+			font-size: 150px;
+			
+		    margin-top: 25%;
+		    margin-left: 5%;
+		    line-height: 1;
+		}
+		#landing-page h3 {
+			font-weight: 300;
+			font-size: 1em;
+			margin: 0;
+		    margin-left: 6%;
+		    color: #cc365c;
+		    background-color: rgba(255,255,255,0.6);
+			padding: 0.6%; 
+			line-height: 1.3;
+			width: 35%;
+		}
