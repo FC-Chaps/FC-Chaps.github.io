@@ -1,45 +1,45 @@
-body {
-  background-color: #555555;
+
+.section-portfolio {
+  background-color: #666666;
+  height: 100%;
+  width: 100%;
+}
+
+.port-header{
+  height: 50px;
+  width: 100%;
+  color: #fff;
 }
 
 #main-head {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  letter-spacing: 3px;
-  color: #eeeeee; 
-  margin-left: 10%;
-}
-
-#project1 {
-  float: top;
-  height: 110px;
-}
-
-#project2 {
-  clear: left;
-  margin-top: 5px;
-  height: 115px;
-}
-
-#project3 {
-  clear: left;
-  margin-top: 5px;
-  height: 110px;
+  position: absolute;
+  left: 100px;
 }
 
 .proj-img {
+  height: 150px;
   float: left;
-  height: 90px;
-  width: 200px;
-  border: 10px solid black
+  position: relative;
+  left: 20px;
+  width: 300px;
+  border: 3px solid black;
+}
+
+.proj-item {
+  clear: both;
+  height: 170px;
+  width: 100%;
 }
 
 .proj-title {
-  float: right;
-  margin-right: 12%;
-  margin-top: 8%;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  letter-spacing: 4px;
-  
+  position: relative;
+  left: 100px;
+  top: 30px;
+
+}
+
+.proj-description {
+  position: relative;
+  left: 100px;
+  color: white;
 }
