@@ -1,16 +1,34 @@
-<div id="portfolio">
+<!---<div id="section-portfolio">
 
 	<h1 id="main-head">Portfolio</h1>
 
 	{% for post in site.posts %}
 
-	<div id="{{post.number}}">
+	<div class="proj-item" id="{{post.number}}">
 		<img class="proj-img" src="{{post.image}}" />
-		<h2 class="project-title">{{post.title}}</h2>
-		<p class="project-description">{{post.description}}</p>
+		<h2 class="proj-title">{{post.title}}</h2>
+		<p class="proj-description">{{post.description}}</p>
 	</div>
 
 
 	{% endfor %}
 
 </div>
+ -->
+
+<div class="section-portfolio">
+   
+    <div class="port-header">
+      <h1 id="main-head">Portfolio</h1>
+    </div>
+   
+   {% for post in site.posts %}
+    <div class="proj-item">
+      <img class="proj-img" src="{{ post.image }}" />
+      <h2 class="proj-title">{{ post.title }}</h2>
+      <p class="proj-description">{{ post.description }}</p>
+    </div>
+
+    {% endfor %}
+
+  </div>
