@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Lato', sans-serif;
+	height: 4000px;
 }
 
 /* NAVIGATION BAR AND STYLES */
@@ -15,8 +16,8 @@ body {
 			z-index: 999;
 
 			width: 40%;
-			padding-left: 50%;
-			padding-right: 10%;
+			padding-left: 55%;
+			padding-right: 5%;
 			padding-top: 0.5%;
 			padding-bottom: 0.5%;
 
@@ -42,27 +43,28 @@ body {
 
 				/* mouse over link */
 				li > a:hover {
-				    color: #cc365c;
+				    color: #f1f075;
 				    text-decoration: none;
 				}
 
 				/* selected link */
 				li > a:active {
-				    color: #cc365c;
+				    color: #f1f075;
 				}
 
-#landing-page  {
+#section-landing  {
 	width: 100%;
 	overflow: hidden;
 	background-image: url(http://i.imgur.com/ZBE1vfJ.jpg);
 	height: 100vh;
-	background-size: 100%;
+	background-size: 110%;
+	background-repeat: no-repeat;
 }
-	#landing-page h1, #landing-page h3{
+	#section-landing h1, #section-landing h3{
 		/* color: #65a5ff; */
-		color: #fff;
+		color: #f1f075;
 	}
-		#landing-page h1 {
+		#section-landing h1 {
 			font-weight: 100;
 			font-size: 150px;
 			
@@ -70,14 +72,18 @@ body {
 		    margin-left: 5%;
 		    line-height: 1;
 		}
-		#landing-page h3 {
+		#section-landing h3 {
 			font-weight: 300;
 			font-size: 1em;
 			margin: 0;
 		    margin-left: 6%;
-		    color: #cc365c;
-		    background-color: rgba(255,255,255,0.6);
+		    /* color: #cc365c;
+		    color: #f1f075; */
+		    background-color: rgba(241,240,117,0.8);
 			padding: 0.6%; 
-			line-height: 1.3;
-			width: 35%;
+			line-height: 1.3;	
+			color: #000;
+
+			position: absolute;
+			width: auto;
 		}
