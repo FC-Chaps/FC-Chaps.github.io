@@ -6,7 +6,7 @@
 }
 
 .port-header{
-  height: 50px;
+  height: 150px;
   width: 100%;
   color: #fff;
 }
@@ -14,6 +14,9 @@
 #main-head {
   position: absolute;
   left: 100px;
+  font-size: 100px;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
 }
 
 .proj-img {
@@ -23,23 +26,51 @@
   left: 20px;
   width: 300px;
   border: 3px solid black;
+  border-radius: 15%;
+}
+
+.active {
+  height: 165px;
+  width: 330px;
+  bottom: 7.5px;
+  left: 5px;
+}
+
+.active + .proj-title {
+  left: 70px;
+}
+
+.active + .proj-title + .proj-description {
+  left: 70px;
 }
 
 .proj-item {
   clear: both;
-  height: 170px;
+  height: 180px;
   width: 100%;
 }
 
 .proj-title {
   position: relative;
+  font-size: 40px;
+  letter-spacing: 3px;
   left: 100px;
   top: 30px;
-
+  font-family: 'Lato', sans-serif;
 }
 
 .proj-description {
   position: relative;
   left: 100px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  bottom: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+a {
   color: white;
 }
