@@ -12,13 +12,16 @@
     height: auto;
 }
 
+.pos {
+  position: relative;
+}
+
 #contact-box {
     position: absolute;
     left: 64px;
     top: 64px;
     width: 192px;
-    height: 165px;
-    padding: 10px 10px 15px 25px;
+    height: auto;
     background-color: #aaaaaa;
     opacity: 0.8;
 }
