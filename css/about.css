@@ -1,20 +1,25 @@
 .PersonalPicture {
-  border-radius: 10px;
-  height: 300px;
-  width: 200px;
+
+  height: 240px;
+  width: 360px;  
 }
-h1 {
+.paragraphsAbout{
+  opacity: 0;
+  text-align:center;
+}
+#aboutHeader {
   text-align: center;
-  font: 150px;
+  font-size: 40px;
   font-family:'Lato', sans-serif;
 }
 #picturesOfUs{
   position:relative;
-  left: 410px;
-  width:450px;
-  height:650px;
-  top: 5px;
+  width:792px;
+  height:528px;
+  left:185px;
+  top: 20px; 
 }
+
 #pictureMarc{
   position:absolute;
   top:0;
@@ -29,9 +34,22 @@ h1 {
   position:absolute;
   bottom:0;
     right:0;
+
 }
 #pictureHarry{
   position:absolute;
   bottom:0;
     left:0;
 }
+.aboutInfo{
+  position:absolute;
+  visibility:hidden;
+
+}
+.personTitle{
+  font-size:40px;
+  font-family:'Lato', sans-serif;
+}
+
+
+
