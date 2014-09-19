@@ -54,9 +54,11 @@
   position: relative;
   font-size: 40px;
   letter-spacing: 3px;
-  left: 100px;
   top: 30px;
   font-family: 'Lato', sans-serif;
+  width: auto;
+  padding-left: 100px;
+  float: left;
 }
 
 .proj-description {
