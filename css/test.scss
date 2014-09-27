@@ -1,0 +1,87 @@
+---
+
+---
+
+/*==============================
+    Chaps digital style sheet 
+===============================*/
+
+/********************** 
+Variable Declarations */
+
+//colors
+$accentColor: #f1f075;
+
+//fonts
+$chapsFontFamily:  'Lato', sans-serif;
+
+
+
+/********************** 
+  Mixin Declarations  */
+@mixin landingHeader() {
+
+	color: $accentColor;
+	line-height: 1;
+	font-family: $chapsFontFamily;
+	font-size: 150px;
+	font-weight: 100;
+
+}
+
+
+
+
+// Nav Bar
+.nav {
+	#nav {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		display: table;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		width: 40%;
+		padding-left: 55%;
+		padding-right: 5%;
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+		background-color: black;
+		color: white;
+		list-style: none;
+		text-align: center;
+		
+		li {
+			display: table-cell;
+			font-weight: 100;
+
+			> a:hover {
+				color: $accentColor;
+			}
+		}
+	}
+}
+
+#section-landing {
+	h1 {
+		@include landingHeader;
+		padding: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,35 +11,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
+    <link rel="canonical" href="http://yourdomain.com/">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 
     <!-- Individual Style Sheets -->
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/style.css">
-
-
+    <link rel="stylesheet" href="/css/test.css">
+    
     <!-- Google font -->
     <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel='stylesheet' type='text/css'>
 
-    <link rel="canonical" href="http://yourdomain.com/">
-
-
-    <!-- J Query Links -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" ></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-
-
-    <!-- Custom Scripts -->
-    <script type="text/javascript" src="js/port-script.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-
+    
 
 </head>
 
 
-  <!-- Navigation Bar -->
+  <!--=====================
+	Navigation Bar 
+======================-->
 <nav class="nav">
 	<ul id="nav">
 		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-landing">home</a></li>
@@ -49,100 +42,177 @@
 	</ul>
 </nav>
 	
-<!-- Landing Section -->
-<div id="section-landing" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;">
 
-	<h1>chaps</h1>
+<!--=====================
+	Landing Section 
+======================-->
+<div class="container-fluid" id="section-landing" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-1">
+			<h1>chaps</h1>
 
-	<h3>Web development from the Chaps at Founders and Coders.</h3>
-			
+			<h3>Web development from the Chaps at Founders and Coders.</h3>
+		</div>
+	</div>		
 </div>
 
-<!-- Portfolio Section -->
-<div id="section-portfolio">
+
+<!--=====================
+	Portfolio Section 
+======================-->
+<div class="container-fluid" id="section-portfolio">
    
-    <div class="port-header">
-      	<h1 id="main-head">portfolio</h1>
+    <div class="row port-header">
+      	<div class="col-md-4 col-md-offset-1">
+      		<h1 id="main-head">portfolio</h1>
+      	</div>
     </div>
    
-    <div class="projects">
-	    
-	    <div class="proj-item">
-	      	<img class="proj-img" src="http://edtechteacher.org/wp-content/uploads/2013/03/Samsung-laptop.jpg">
-	     	<h2 class="proj-title">lorem ipsum</h2>
-	      	<p class="proj-description port-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ante tellus. Sed tincidunt malesuada nisl, sed finibus urna mollis sed. Praesent in tristique velit, vel malesuada mauris. Praesent in ante ut magna lacinia vestibulum. Phasellus quis arcu non est ultrices mattis eget non eros <a href="">Read more</a></p>
+    <div class="row projects">
+    	<div class="col-md-10 col-md-offset-1">
+    		
+		    
+		    <div class="row proj-item">
+		    	<div class="col-md-10 col-md-offset-1">
+		    		<div class="col-sm-6">
+			    	  	<img class="proj-img" src="http://edtechteacher.org/wp-content/uploads/2013/03/Samsung-laptop.jpg">
+		    	  	</div>
+		    	 	<div class="col-sm-6">
+		    	 		<h2 class="proj-title">lorem ipsum</h2>
+		    	 		<p class="proj-description port-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ante tellus. Sed tincidunt malesuada nisl, sed finibus urna mollis sed. Praesent in tristique velit, vel malesuada mauris. Praesent in ante ut magna lacinia vestibulum. Phasellus quis arcu non est ultrices mattis eget non eros <a href="">Read more</a></p>
+		    	 	</div>
+		    	</div>
+		    </div>
+		    
+		    <div class="row proj-item">
+		    	<div class="col-md-10 col-md-offset-1">
+		    		<div class="col-sm-6">
+			    	  	<img class="proj-img" src="http://www.mini-laptops-and-notebooks.com/images/Apple_MacBook.jpg">
+		    	  	</div>
+		    	 	<div class="col-sm-6">
+		    	 		<h2 class="proj-title">integer eu nulla</h2>
+		    	 		<p class="proj-description port-hidden">id purus condimentum sollicitudin. Nullam pretium, eros et venenatis scelerisque, nisl nunc volutpat lectus, id vestibulum <br> ante felis sit amet elit.  <a href="">Read more</a></p>
+		    	 	</div>
+		    	</div>
+		    </div>
+		    
+		    <div class="row proj-item">
+		    	<div class="col-md-10 col-md-offset-1">
+		    		<div class="col-sm-6">
+			    	  	<img class="proj-img" src="http://cdn.bulbagarden.net/upload/c/c2/RedTitle.png">
+		    	  	</div>
+		    	 	<div class="col-sm-6">
+		    	 		<h2 class="proj-title">sed mollis purus</h2>
+		    	 		<p class="proj-description port-hidden">Ut nibh cursus ullamcorper. Donec vel magna libero. Aliquam ac tincidunt augue. Morbi suscipit eu felis et accumsan. <a href="">Read more</a></p>
+		    	 	</div>
+		    	</div>
+		    </div>
+		    
+
 	    </div>
-	    
-	    <div class="proj-item">
-	      	<img class="proj-img" src="http://www.mini-laptops-and-notebooks.com/images/Apple_MacBook.jpg">
-	     	<h2 class="proj-title">integer eu nulla</h2>
-	      	<p class="proj-description port-hidden">id purus condimentum sollicitudin. Nullam pretium, eros et venenatis scelerisque, nisl nunc volutpat lectus, id vestibulum <br> ante felis sit amet elit.  <a href="">Read more</a></p>
-	    </div>
-	    
-	    <div class="proj-item">
-	      	<img class="proj-img" src="http://cdn.bulbagarden.net/upload/c/c2/RedTitle.png">
-	     	<h2 class="proj-title">sed mollis purus</h2>
-	      	<p class="proj-description port-hidden">Ut nibh cursus ullamcorper. Donec vel magna libero. Aliquam ac tincidunt augue. Morbi suscipit eu felis et accumsan. <a href="">Read more</a></p>
-	    </div>
-	    
     </div>
-
-    
-
 </div>
 
-<!-- About us Section -->
-<div id="section-about">
-	<h1 div id = "aboutHeader">meet the chaps</h1> 
-  	
-	<div id ="picturesOfUs">
 
-		<div>
-			<img src = "http://i.imgur.com/tZWoqhP.png" id ="pictureMarc" class = "PersonalPicture" alt =""/>
-			<p id = "infoMarc"class = "aboutInfo"><br><br><br>
-		<span class = "personTitle">Marc</span><br><br><br>written using a simplified markup language<br> (known as "wiki markup") or a rich-text editor.<br>[1][2] While a wiki is a type of content management<br> system, it differs from a blog or most other <br>such systems in that the content is created <br>without any defined owner or leader, and wikis<br> have little implicit structure, allowing structure to </p>
-		</div>
+<!--===================== 
+	About us Section 
+======================-->
+<div class="container-fluid" id="section-about">
 
-		<div>
-			<img src = "http://i.imgur.com/BBAVpDD.png" id = "pictureHarry" class = "PersonalPicture" alt =""/> 
-			<p id = "infoHarry" class = "aboutInfo"><br><br>
-		<br><span class = "personTitle">Harry</span><br><br><br>written using a simplified markup language<br> (known as "wiki markup") or a rich-text editor.<br>[1][2] While a wiki is a type of content management<br> system, it differs from a blog or most other <br>such systems in that the content is created <br>without any defined owner or leader, and wikis<br> have little implicit structure, allowing structure to </p>
-		</div>
-
-
-		<div >
-			<img src = "http://i.imgur.com/hWfK7xl.png" id = "pictureBenji" class = "PersonalPicture" alt ="" />
-			<p id = "infoBenji"class = "aboutInfo"><br><br><br>
-		<span class = "personTitle">Benji</span><br><br><br>written using a simplified markup language<br> (known as "wiki markup") or a rich-text editor.<br>[1][2] While a wiki is a type of content management<br> system, it differs from a blog or most other <br>such systems in that the content is created <br>without any defined owner or leader, and wikis<br> have little implicit structure, allowing structure to </p>
-		</div>
-
-		<div >
-			<img src = "http://i.imgur.com/GSsC8Cw.png" id = "pictureWill"class = "PersonalPicture" alt =""/> 
-			<p id = "infoWill" class = "aboutInfo"><br><br><br>
-		<span class = "personTitle">Will</span><br><br><br>written using a simplified markup language<br> (known as "wiki markup") or a rich-text editor.<br>[1][2] While a wiki is a type of content management<br> system, it differs from a blog or most other <br>such systems in that the content is created <br>without any defined owner or leader, and wikis<br> have little implicit structure, allowing structure to</p>
+	<div class="row">
+		<div class="col-md-12">
+			<h1 id = "aboutHeader">meet the chaps</h1>
 		</div>
 	</div>
+	
+	<div class-"row" id="picturesOfUs">
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+			<img src = "http://i.imgur.com/tZWoqhP.png" id ="pictureMarc" class = "PersonalPicture">
+			
+			<p id = "infoMarc" class="aboutInfo">
+				<span class = "personTitle">Marc</span>
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, accusamus, iusto! Sint doloremque asperiores architecto veniam veritatis doloribus vitae dolorum excepturi enim laudantium consequatur quidem maiores aspernatur soluta, possimus a!
+			</p>
+
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+			<img src = "http://i.imgur.com/BBAVpDD.png" id = "pictureHarry" class = "PersonalPicture"> 
+			
+			<p id = "infoHarry" class = "aboutInfo">
+				<span class = "personTitle">Harry</span>
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic blanditiis beatae ab quisquam repellendus harum aliquid incidunt, iste eius impedit aliquam repellat voluptas veritatis. Reprehenderit quibusdam dolorum consequuntur repudiandae est.
+			</p>
+				
+		</div>
+
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+			<img src = "http://i.imgur.com/hWfK7xl.png" id = "pictureBenji" class = "PersonalPicture" alt ="">
+			
+			<p id = "infoBenji"class = "aboutInfo">
+				<span class = "personTitle">Benji</span>
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi officiis non doloremque, iste quia dolorum, qui, consectetur nisi dicta modi obcaecati vel fugiat magni aut placeat, architecto harum facilis?	
+			</p>
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+			<img src = "http://i.imgur.com/GSsC8Cw.png" id = "pictureWill"class = "PersonalPicture" alt =""/> 
+					
+			<p id = "infoWill" class = "aboutInfo">
+				<span class = "personTitle">Will</span>
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus placeat voluptatum, eaque aliquam. Dolorem fugit minima nam. Deserunt laborum nemo, iure totam. Placeat, dolore. Repudiandae neque sed quod iusto aspernatur!
+			</p>
+		</div>
+	</div>
+
 </div>
 
-<!-- Contact Section with Map -->
-<div id="section-contact" class="pos">
+<!--============================= 
+	Contact Section with Map 
+==============================-->
+<div class="container-fluid" id="section-contact" class="pos">
 
-	<iframe width='100%' height='650px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mwgdavies.jhcfdmh4/attribution,zoompan.html?access_token=pk.eyJ1IjoibXdnZGF2aWVzIiwiYSI6ImZJRkJsZ28ifQ.TwunV-KdX8pzBYEcxGxPHg'></iframe>
-  	<div id="contact-box">
-    	<p id="contact-header">hello@chaps.io</p>
-		<p id="contact-text"><br>@thisischaps<br><br>26 Camden High Street <br> London <br>NW1 0JH</p>  
-  	</div> 
+	<div class="row">
+		<div class="col-md-12">
+			<iframe width='100%' height='650px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mwgdavies.jhcfdmh4/attribution,zoompan.html?access_token=pk.eyJ1IjoibXdnZGF2aWVzIiwiYSI6ImZJRkJsZ28ifQ.TwunV-KdX8pzBYEcxGxPHg'></iframe>
+		</div>
+	</div>
+	
+	<div class="row">
+	  	<div class="col-xs-6 col-xs-offset-3 col-sm-offset-" id="contact-box">
+
+			<ul id="contact-text">
+				<li id="contact-header">hello@chaps.io</li>
+				<li>@thisischaps</li>
+				<li>26 Camden High Street</li>
+				<li>London</li>
+				<li>NW1 0JH</li>
+			</ul>
+
+	  	</div>
+  	</div>
+
 </div>
 
-<!-- Parallax Effect -->
-<!-- <script src="js/skrollr.min.js"></script>
-<script type="text/javascript">
-	window.onload = function() {
-	    skrollr.init({
-	    forceHeight: false
-		});
-	}
-	</script> -->
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<!-- J Query Links -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- Custom Scripts -->
+<script type="text/javascript" src="js/port-script.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 
 <!-- Smooth Scroll Nav Bar -->
 <script src="js/bind-polyfill.js"></script>
