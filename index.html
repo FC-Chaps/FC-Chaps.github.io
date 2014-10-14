@@ -9,10 +9,10 @@ title: chaps
 ======================-->
 <nav class="nav">
 	<ul id="nav">
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-landing">home</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-portfolio">portfolio</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-about">about</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-contact">contact</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeOutQuad&quot; }" href="#landing">home</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#portfolio">portfolio</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#about">about</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#contact">contact</a></li>
 	</ul>
 </nav>
 	
@@ -21,7 +21,7 @@ title: chaps
 	Landing Section 
 ======================-->
 <!-- Is there a lighter weight parallax (perhaps less powerful that could replace the skrollr.js and allow screen compatibility with smoothScroll) -->
-<div class="container-fluid" id="section-landing" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;">
+<div class="container-fluid" id="landing">
 	<div class="row">
 		<div class="col-md-4 col-md-offset-1">
 			<h1>chaps</h1>
@@ -36,14 +36,14 @@ title: chaps
 <!--=====================
 	Portfolio Section 
 ======================-->
-<div class="container-fluid" id="section-portfolio">
+<div class="container-fluid" id="portfolio">
    
     <div class="row port-header">
       	<div class="col-md-4 col-md-offset-1">
       		<h1>portfolio</h1>
       	</div>
     </div>
-   
+
     <div class="row projects">
     	<div class="col-md-10 col-md-offset-1">
     		
@@ -67,7 +67,7 @@ title: chaps
 <!--===================== 
 	About us Section 
 ======================-->
-<div class="container-fluid" id="section-about">
+<div class="container-fluid" id="about">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -126,7 +126,7 @@ title: chaps
 <!--============================= 
 	Contact Section with Map 
 ==============================-->
-<div class="container-fluid" id="section-contact" class="pos">
+<div class="container-fluid" id="contact" class="pos">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -153,21 +153,20 @@ title: chaps
 
 
 
-
-<!-- Bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
 <!-- J Query Links -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <!-- Custom Scripts -->
 <script type="text/javascript" src="js/port-script.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
 
 <!-- Smooth Scroll Nav Bar -->
 <script src="js/bind-polyfill.js"></script>
 <script src="js/smooth-scroll.js"></script>
 <script>
-    smoothScroll.init();
+    smoothScroll.init({
+    	speed: 750,
+    	updateURL: false,
+    	offset: 0
+    });
 	</script>
 

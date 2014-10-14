@@ -55,7 +55,7 @@ body {
 /*******************************
 		 Landing Section 
 *******************************/
-#section-landing  {
+#landing  {
 	width: 100%;
 	overflow: hidden;
 	background-image: url(http://i.imgur.com/eZuYR3j.png);
@@ -63,11 +63,11 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-	#section-landing h1, #section-landing h3{
+	#landing h1, #landing h3{
 		/* color: #65a5ff; */
 		color: #f1f075;
 	}
-		#section-landing h1 {
+		#landing h1 {
 			font-weight: 100;
 			font-size: 150px;
 			
@@ -75,7 +75,7 @@ body {
 		    margin-left: 5%;
 		    line-height: 1;
 		}
-		#section-landing h3 {
+		#landing h3 {
 			font-weight: 300;
 			font-size: 1em;
 			margin: 0;
@@ -96,7 +96,7 @@ body {
 		 Portfolio Section 
 *******************************/
 
-#section-portfolio {
+#portfolio {
   background-color: #333;
   width: 84%;
   padding: 2% 8% 3% ;
@@ -175,7 +175,7 @@ body {
 		 ABOUT Section 
 *******************************/
 
-#section-about {
+#about {
 	height: 100vh;
 	padding-top: 3%;
 	padding-bottom: 2%;

@@ -15,7 +15,6 @@
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap-3.1.1-dist/css/bootstrap.min.css">
 
 
     <!-- Individual Style Sheets -->
@@ -37,10 +36,10 @@
 ======================-->
 <nav class="nav">
 	<ul id="nav">
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-landing">home</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-portfolio">portfolio</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-about">about</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#section-contact">contact</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeOutQuad&quot; }" href="#landing">home</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#portfolio">portfolio</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#about">about</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#contact">contact</a></li>
 	</ul>
 </nav>
 	
@@ -49,10 +48,11 @@
 	Landing Section 
 ======================-->
 <!-- Is there a lighter weight parallax (perhaps less powerful that could replace the skrollr.js and allow screen compatibility with smoothScroll) -->
-<div class="container-fluid" id="section-landing" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;">
+<div class="container-fluid" id="landing">
 	<div class="row">
 		<div class="col-md-4 col-md-offset-1">
 			<h1>chaps</h1>
+			<h2>DIGITAL</h2>
 
 			<h3>Web development from the Chaps at Founders and Coders.</h3>
 		</div>
@@ -63,14 +63,14 @@
 <!--=====================
 	Portfolio Section 
 ======================-->
-<div class="container-fluid" id="section-portfolio">
+<div class="container-fluid" id="portfolio">
    
     <div class="row port-header">
       	<div class="col-md-4 col-md-offset-1">
       		<h1>portfolio</h1>
       	</div>
     </div>
-   
+
     <div class="row projects">
     	<div class="col-md-10 col-md-offset-1">
     		
@@ -78,11 +78,11 @@
 		    <div class="row proj-item">
 		    	<div class="col-md-10 col-md-offset-1">
 		    		<div class="col-sm-6">
-			    	  	<img class="proj-img" src="http://edtechteacher.org/wp-content/uploads/2013/03/Samsung-laptop.jpg">
+			    	  	<img class="proj-img" src="http://cdn.theatlantic.com/static/mt/assets/science/twitter-bird-blue-on-white-615_edited-1.jpg">
 		    	  	</div>
 		    	 	<div class="col-sm-6">
-		    	 		<h2 class="proj-title">lorem ipsum</h2>
-		    	 		<p class="proj-description port-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ante tellus. Sed tincidunt malesuada nisl, sed finibus urna mollis sed. Praesent in tristique velit, vel malesuada mauris. Praesent in ante ut magna lacinia vestibulum. Phasellus quis arcu non est ultrices mattis eget non eros <a href="">Read more</a></p>
+		    	 		<h2 class="proj-title">Twitter Feed</h2>
+		    	 		<p class="proj-description port-hidden">A social media feed built using NodeJS, Heroku and MongoDB. The node server serves JSON data pulled from the Twitter api <a href="">Read more</a></p>
 		    	 	</div>
 		    	</div>
 		    </div>
@@ -90,37 +90,23 @@
 		    <div class="row proj-item">
 		    	<div class="col-md-10 col-md-offset-1">
 		    		<div class="col-sm-6">
-			    	  	<img class="proj-img" src="http://www.mini-laptops-and-notebooks.com/images/Apple_MacBook.jpg">
+			    	  	<img class="proj-img" src="">
 		    	  	</div>
 		    	 	<div class="col-sm-6">
-		    	 		<h2 class="proj-title">integer eu nulla</h2>
-		    	 		<p class="proj-description port-hidden">id purus condimentum sollicitudin. Nullam pretium, eros et venenatis scelerisque, nisl nunc volutpat lectus, id vestibulum <br> ante felis sit amet elit.  <a href="">Read more</a></p>
+		    	 		<h2 class="proj-title">Project1</h2>
+		    	 		<p class="proj-description port-hidden"> <a href="">Read more</a></p>
 		    	 	</div>
 		    	</div>
 		    </div>
-		    
-		    <div class="row proj-item">
-		    	<div class="col-md-10 col-md-offset-1">
-		    		<div class="col-sm-6">
-			    	  	<img class="proj-img" src="http://cdn.bulbagarden.net/upload/c/c2/RedTitle.png">
-		    	  	</div>
-		    	 	<div class="col-sm-6">
-		    	 		<h2 class="proj-title">sed mollis purus</h2>
-		    	 		<p class="proj-description port-hidden">Ut nibh cursus ullamcorper. Donec vel magna libero. Aliquam ac tincidunt augue. Morbi suscipit eu felis et accumsan. <a href="">Read more</a></p>
-		    	 	</div>
-		    	</div>
-		    </div>
-		    
-
+		    	    
 	    </div>
-    </div>
-</div>
+	</div>
 
 
 <!--===================== 
 	About us Section 
 ======================-->
-<div class="container-fluid" id="section-about">
+<div class="container-fluid" id="about">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -179,7 +165,7 @@
 <!--============================= 
 	Contact Section with Map 
 ==============================-->
-<div class="container-fluid" id="section-contact" class="pos">
+<div class="container-fluid" id="contact" class="pos">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -206,22 +192,21 @@
 
 
 
-
-<!-- Bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
 <!-- J Query Links -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <!-- Custom Scripts -->
 <script type="text/javascript" src="js/port-script.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
 
 <!-- Smooth Scroll Nav Bar -->
 <script src="js/bind-polyfill.js"></script>
 <script src="js/smooth-scroll.js"></script>
 <script>
-    smoothScroll.init();
+    smoothScroll.init({
+    	speed: 750,
+    	updateURL: false,
+    	offset: 0
+    });
 	</script>
 
 

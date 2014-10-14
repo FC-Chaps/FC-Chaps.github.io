@@ -76,8 +76,14 @@ $chapsFontFamily:  'Lato', sans-serif;
 	}
 }
 
+// Margin adjustment to allow smooth scroll to reveal full page
+#portfolio, #about, #contact {
+    padding-top: 40px;
+}
+
+
 //landing section
-#section-landing {
+#landing {
     height:100vh;
 	background: {
 		image: url(http://i.imgur.com/eZuYR3j.png);
@@ -108,7 +114,7 @@ $chapsFontFamily:  'Lato', sans-serif;
 
 
 //portfolio section
-#section-portfolio {
+#portfolio {
 	background-color: #333;
 
     .port-header {
@@ -131,7 +137,6 @@ $chapsFontFamily:  'Lato', sans-serif;
         }
     }
 }
-
 
 
 
