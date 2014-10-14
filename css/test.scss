@@ -5,6 +5,20 @@
 /*==============================
     Chaps digital style sheet 
 ===============================*/
+/*
+      ___           ___           ___           ___                       ___           ___           ___           ___      
+     /\  \         /\  \         /\  \         /\  \                     /\__\         /\__\         /\  \         /|  |     
+     \:\  \       /::\  \       /::\  \       /::\  \         ___       /:/ _/_       /:/ _/_       /::\  \       |:|  |     
+      \:\  \     /:/\:\  \     /:/\:\__\     /:/\:\__\       /|  |     /:/ /\  \     /:/ /\__\     /:/\:\  \      |:|  |     
+  ___ /::\  \   /:/ /::\  \   /:/ /:/  /    /:/ /:/  /      |:|  |    /:/ /::\  \   /:/ /:/  /    /:/  \:\  \   __|:|__|     
+ /\  /:/\:\__\ /:/_/:/\:\__\ /:/_/:/__/___ /:/_/:/__/___    |:|  |   /:/__\/\:\__\ /:/_/:/  /    /:/__/ \:\__\ /::::\__\_____
+ \:\/:/  \/__/ \:\/:/  \/__/ \:\/:::::/  / \:\/:::::/  /  __|:|__|   \:\  \ /:/  / \:\/:/  /     \:\  \ /:/  / ~~~~\::::/___/
+  \::/__/       \::/__/       \::/~~/~~~~   \::/~~/~~~~  /::::\  \    \:\  /:/  /   \::/__/       \:\  /:/  /      |:|~~|    
+   \:\  \        \:\  \        \:\~~\        \:\~~\      ~~~~\:\  \    \:\/:/  /     \:\  \        \:\/:/  /       |:|  |    
+    \:\__\        \:\__\        \:\__\        \:\__\          \:\__\    \::/  /       \:\__\        \::/  /        |:|__|    
+     \/__/         \/__/         \/__/         \/__/           \/__/     \/__/         \/__/         \/__/         |/__/     
+*/
+
 
 /********************** 
 Variable Declarations */
@@ -19,12 +33,11 @@ $chapsFontFamily:  'Lato', sans-serif;
 
 /********************** 
   Mixin Declarations  */
-@mixin landingHeader() {
+@mixin mainHeader() {
 
 	color: $accentColor;
 	line-height: 1;
 	font-family: $chapsFontFamily;
-	font-size: 150px;
 	font-weight: 100;
 
 }
@@ -42,7 +55,7 @@ $chapsFontFamily:  'Lato', sans-serif;
 		position: fixed;
 		top: 0;
 		z-index: 999;
-		width: 40%;
+		/* width: 40%; */
 		padding-left: 55%;
 		padding-right: 5%;
 		padding-top: 0.5%;
@@ -63,15 +76,61 @@ $chapsFontFamily:  'Lato', sans-serif;
 	}
 }
 
+//landing section
 #section-landing {
-	h1 {
-		@include landingHeader;
-		padding: 100px;
+    height:100vh;
+	background: {
+		image: url(http://i.imgur.com/eZuYR3j.png);
+		size: 100%;
+		repeat: no-repeat;
+
 	}
+    .row {
+        margin-top: 280px;
+    	h1 {
+            @include mainHeader;
+            font-size: 150px;
+        }
+        h3 {
+            color: #000;
+            font: {
+                size: 1em;
+                weight: 100;
+                family: $chapsFontFamily;
+            }
+            margin: 0;
+            background-color: $accentColor;
+            line-height: 1.5;
+            padding: 0.6%;
+        }
+    }
 }
 
 
+//portfolio section
+#section-portfolio {
+	background-color: #333;
 
+    .port-header {
+        height: 150px;
+        color: #fff;
+        h1 {
+            @include mainHeader;
+            font-size: 100px;
+        }
+    }
+    .projects {
+        background-color: #000;
+        .proj-item {
+            height: 180px;
+            text-align: center;
+            .proj-img {
+                max-width: 100%;
+                height: 150px;
+            }
+        }
+    }
+}
 
 
 
