@@ -19,8 +19,6 @@
 
     <!-- Individual Style Sheets -->
     <link rel="stylesheet" href="/css/main.css">
-    <!-- TODO - remove this shit
-    <link rel="stylesheet" href="/css/style.css"> -->
     <link rel="stylesheet" href="/css/test.css">
     
     <!-- Google font -->
@@ -36,10 +34,10 @@
 ======================-->
 <nav class="nav">
 	<ul id="nav">
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeOutQuad&quot; }" href="#landing">home</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#portfolio">portfolio</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#about">about</a></li>
-		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#contact">contact</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeOutQuad&quot; }" href="#landing">HOME</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#portfolio">PORTFOLIO</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#about">ABOUT</a></li>
+		<li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" href="#contact">CONTACT</a></li>
 	</ul>
 </nav>
 	
@@ -50,11 +48,11 @@
 <!-- Is there a lighter weight parallax (perhaps less powerful that could replace the skrollr.js and allow screen compatibility with smoothScroll) -->
 <div class="container-fluid" id="landing">
 	<div class="row">
-		<div class="col-md-4 col-md-offset-1">
+		<div class="col-md-4 col-md-offset-1 titles">
 			<h1>chaps</h1>
 			<h2>DIGITAL</h2>
 
-			<h3>Web development from the Chaps at Founders and Coders.</h3>
+			<h3>Full-stack, Node JS specialised web development from the Chaps at Collective Academy</h3>
 		</div>
 	</div>		
 </div>
@@ -64,60 +62,52 @@
 	Portfolio Section 
 ======================-->
 <div class="container-fluid" id="portfolio">
-   
-    <div class="row port-header">
-      	<div class="col-md-4 col-md-offset-1">
+    <div class="row">
+      	<div class="folio-header col-md-4 col-md-offset-1">
       		<h1>portfolio</h1>
       	</div>
     </div>
-
-    <div class="row projects">
-    	<div class="col-md-10 col-md-offset-1">
     		
-		    
-		    <div class="row proj-item">
-		    	<div class="col-md-10 col-md-offset-1">
-		    		<div class="col-sm-6">
-			    	  	<img class="proj-img" src="http://cdn.theatlantic.com/static/mt/assets/science/twitter-bird-blue-on-white-615_edited-1.jpg">
-		    	  	</div>
-		    	 	<div class="col-sm-6">
-		    	 		<h2 class="proj-title">Twitter Feed</h2>
-		    	 		<p class="proj-description port-hidden">A social media feed built using NodeJS, Heroku and MongoDB. The node server serves JSON data pulled from the Twitter api <a href="">Read more</a></p>
-		    	 	</div>
-		    	</div>
-		    </div>
-		    
-		    <div class="row proj-item">
-		    	<div class="col-md-10 col-md-offset-1">
-		    		<div class="col-sm-6">
-			    	  	<img class="proj-img" src="">
-		    	  	</div>
-		    	 	<div class="col-sm-6">
-		    	 		<h2 class="proj-title">Project1</h2>
-		    	 		<p class="proj-description port-hidden"> <a href="">Read more</a></p>
-		    	 	</div>
-		    	</div>
-		    </div>
-		    	    
-	    </div>
-	</div>
-
+    
+    <div class="row project">
+    	<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    		<div class="col-sm-6">
+	    	  	<img src="http://cdn.theatlantic.com/static/mt/assets/science/twitter-bird-blue-on-white-615_edited-1.jpg">
+	    	  	<h2 class="title">Twitter Feed</h2>
+    	  	</div>
+    	 	<div class="col-sm-6">
+    	 		<p class="description">A social media feed built using NodeJS, Heroku and MongoDB. The node server serves JSON data pulled from the Twitter api <a href="">Read more</a></p>
+    	 	</div>
+    	</div>
+    </div>
+    
+    <div class="row project">
+    	<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    		<div class="col-sm-6">
+	    	  	<img src="">
+	    	  	<h2 class="title">Project1</h2>
+    	  	</div>
+    	 	<div class="col-sm-6">
+    	 		<p class="description"> <a href="">Read more</a></p>
+    	 	</div>
+    	</div>
+    </div>
+    
+</div>
 
 <!--===================== 
 	About us Section 
 ======================-->
 <div class="container-fluid" id="about">
-
 	<div class="row">
-		<div class="col-md-12">
-			<h1 id = "aboutHeader">meet the chaps</h1>
+		<div class="col-md-12 about-header">
+			<h1>meet the chaps</h1>
 		</div>
 	</div>
 	
-	<div class-"row" id="picturesOfUs">
-
+	<div class="row profiles">
 		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-			<img src = "http://i.imgur.com/tZWoqhP.png" id ="pictureMarc" class = "PersonalPicture">
+			<img src = "http://i.imgur.com/tZWoqhP.png" id="Marc" class="profile-pic">
 			
 			<p id = "infoMarc" class="aboutInfo">
 				<span class = "personTitle">Marc</span>
@@ -128,7 +118,7 @@
 		</div>
 
 		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-			<img src = "http://i.imgur.com/BBAVpDD.png" id = "pictureHarry" class = "PersonalPicture"> 
+			<img src = "http://i.imgur.com/BBAVpDD.png" id="Harry" class="profile-pic"> 
 			
 			<p id = "infoHarry" class = "aboutInfo">
 				<span class = "personTitle">Harry</span>
@@ -140,7 +130,7 @@
 
 
 		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-			<img src = "http://i.imgur.com/hWfK7xl.png" id = "pictureBenji" class = "PersonalPicture" alt ="">
+			<img src = "http://i.imgur.com/hWfK7xl.png" id="Benji" class="profile-pic">
 			
 			<p id = "infoBenji"class = "aboutInfo">
 				<span class = "personTitle">Benji</span>
@@ -150,7 +140,7 @@
 		</div>
 
 		<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-			<img src = "http://i.imgur.com/GSsC8Cw.png" id = "pictureWill"class = "PersonalPicture" alt =""/> 
+			<img src = "http://i.imgur.com/GSsC8Cw.png" id="Will" class="profile-pic"> 
 					
 			<p id = "infoWill" class = "aboutInfo">
 				<span class = "personTitle">Will</span>
@@ -196,7 +186,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <!-- Custom Scripts -->
-<script type="text/javascript" src="js/port-script.js"></script>
+<!--<script type="text/javascript" src="js/port-script.js"></script>-->
 
 <!-- Smooth Scroll Nav Bar -->
 <script src="js/bind-polyfill.js"></script>
